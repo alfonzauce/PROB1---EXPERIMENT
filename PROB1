@@ -1,0 +1,175 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	float boxtix;
+	float sidelinetix;
+	float premiumtix;
+	float genad;
+
+	cout << " Ticket price at box = 250" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> boxtix ;
+
+	cout << " Sales at Box = " << 250 * boxtix << endl;
+
+	cout << " Ticket price at Sideline = 100" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> sidelinetix;
+
+	cout << " Sales at Sideline = " << 100 * sidelinetix << endl;
+
+	cout << " Ticket price at Premium = 50" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> premiumtix;
+
+	cout << " Sales at Premium = " << 50 * premiumtix << endl;
+
+	cout << " Ticket price at General Admission = 25" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> genad;
+
+	cout << " Sales at General Admission = " << 25 * genad << endl; 
+
+	cout << " Total Number of Sales in Game 1 = " << 250 * boxtix + 100 * sidelinetix + 50 * premiumtix + 25 * genad << endl; 
+
+	cout << endl; 
+	cout << endl; 
+
+	float boxtix2;
+	float sidelinetix2;
+	float premiumtix2;
+	float genad2;
+
+	cout<< "Game 2" << endl; 
+
+	cout << " Ticket price at box = 250" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> boxtix2 ;
+
+	cout << " Sales at Box = " << 250 * boxtix2 << endl;
+
+	cout << " Ticket price at Sideline = 100" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> sidelinetix2;
+
+	cout << " Sales at Sideline = " << 100 * sidelinetix2 << endl;
+
+	cout << " Ticket price at Premium = 50" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> premiumtix2;
+
+	cout << " Sales at Premium = " << 50 * premiumtix2 << endl;
+
+	cout << " Ticket price at General Admission = 25" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> genad2;
+
+	cout << " Sales at General Admission = " << 25 * genad2 << endl; 
+
+	cout << " Total Number of Sales in Game 2 = " << 250 * boxtix2 + 100 * sidelinetix2 + 50 * premiumtix2 + 25 * genad2 << endl; 
+	
+	float boxtix3;
+	float sidelinetix3;
+	float premiumtix3;
+	float genad3;
+
+	cout << endl; 
+	cout << endl;
+
+	cout<< "Game 3" << endl; 
+
+	cout << " Ticket price at box = 250" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> boxtix3 ;
+
+	cout << " Sales at Box = " << 250 * boxtix3 << endl;
+
+	cout << " Ticket price at Sideline = 100" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> sidelinetix3;
+
+	cout << " Sales at Sideline = " << 100 * sidelinetix3 << endl;
+
+	cout << " Ticket price at Premium = 50" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> premiumtix3;
+
+	cout << " Sales at Premium = " << 50 * premiumtix3 << endl;
+
+	cout << " Ticket price at General Admission = 25" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> genad3;
+
+	cout << " Sales at General Admission = " << 25 * genad3 << endl; 
+
+	cout << " Total Number of Sales in Game 3 = " << 250 * boxtix3 + 100 * sidelinetix3 + 50 * premiumtix3 + 25 * genad3 << endl; 
+	
+	float boxtix4;
+	float sidelinetix4;
+	float premiumtix4;
+	float genad4;
+
+	cout << endl; 
+	cout << endl;
+
+	cout<< "Game 4" << endl; 
+
+	cout << " Ticket price at box = 250" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> boxtix4 ;
+
+	cout << " Sales at Box = " << 250 * boxtix4 << endl;
+
+	cout << " Ticket price at Sideline = 100" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> sidelinetix4;
+
+	cout << " Sales at Sideline = " << 100 * sidelinetix4 << endl;
+
+	cout << " Ticket price at Premium = 50" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> premiumtix4;
+
+	cout << " Sales at Premium = " << 50 * premiumtix4 << endl;
+
+	cout << " Ticket price at General Admission = 25" << endl; 
+
+	cout << " No. of tickets sold = "; 
+	cin >> genad4;
+
+	cout << " Sales at General Admission = " << 25 * genad4 << endl; 
+
+	cout << " Total Number of Sales in Game 4 = " << 250 * boxtix4 + 100 * sidelinetix4 + 50 * premiumtix4 + 25 * genad4 << endl; 
+
+	cout << endl; 
+	cout << endl;
+
+	cout << "Total Sales for Games 1,2,3 and 4 = " << 250 * boxtix2 + 100 * sidelinetix2 + 50 * premiumtix2 + 25 * genad2 + 
+		250 * boxtix + 100 * sidelinetix + 50 * premiumtix + 25 * genad + 250 * boxtix3 + 100 * sidelinetix3 + 50 * premiumtix3 + 25 * genad3 + 
+		250 * boxtix4 + 100 * sidelinetix4 + 50 * premiumtix4 + 25 * genad4 << endl;
+
+		
+
+
+	_getch();
+
+}

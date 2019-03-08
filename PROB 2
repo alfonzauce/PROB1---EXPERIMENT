@@ -1,0 +1,31 @@
+
+#include <iostream>
+#include <conio.h>
+
+
+
+using namespace std;
+
+float main()
+
+{
+	float mass;
+	float density;
+
+
+	cout << " Enter Mass in grams = ";
+	cin >> mass; 
+
+	cout << endl;
+
+	cout << " Enter Density in grams per cubic cm = ";
+	cin >> density; 
+
+	cout << endl;
+
+	cout << " Volume = " << mass / density;
+	
+	_getch();
+	return 0;
+
+}
